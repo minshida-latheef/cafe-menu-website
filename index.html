@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brew & Bite Cafe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>☕ Brew & Bite Cafe</h1>
+    <p>Freshly brewed coffee & warm pastries every morning</p>
+  </header>
+
+  <!-- Category Filters -->
+  <div class="filters">
+    <button class="filter-btn active" onclick="filterMenu('all', this)">All</button>
+    <button class="filter-btn" onclick="filterMenu('coffee', this)">Coffee</button>
+    <button class="filter-btn" onclick="filterMenu('tea', this)">Tea</button>
+    <button class="filter-btn" onclick="filterMenu('pastry', this)">Pastries</button>
+  </div>
+
+  <!-- Menu Items Container -->
+  <div class="menu-grid" id="menu-container"></div>
+
+  <!-- Simple Cart Total -->
+  <div class="order-bar">
+    <div>
+      <strong>Your Order:</strong> <span id="item-count">0</span> items | 
+      Total: ₹<span id="total-price">0</span>
+    </div>
+    <div>
+      <button class="clear-btn" onclick="clearOrder()">Clear</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
