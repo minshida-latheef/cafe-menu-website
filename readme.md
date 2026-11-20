@@ -34,7 +34,8 @@ A simple, multi-page cafe website and interactive menu built using vanilla \*\*H
 
 
 
-\[click to view](https://minshida-latheef.github.io/cafe-menu-website/)
+[click to view](https://minshida-latheef.github.io/cafe-menu-website/)
+
 
 
 
